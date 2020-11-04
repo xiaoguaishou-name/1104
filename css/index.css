@@ -1,0 +1,66 @@
+.container{
+  width: 1920px;
+  height: 1080px;
+  background: url(../image/1.png) no-repeat;
+}
+/* 头部栏 */
+.container .header{
+  width: 1918px;
+  height: 107px;
+  position: relative;
+}
+.container .header .nav{
+  position: absolute;
+  left:778px;
+  top:64px;
+}
+.container .header .nav .nav-left{
+  float:left;
+  margin-right:181px;
+}
+.container .header .nav .nav-left .nav-left-item{
+  float:left;
+  margin-right:62px;
+}
+.container .header .nav .nav-right{
+  float:right;
+}
+.container .header .nav .nav-right .nav-right-item{
+  box-sizing: border-box;
+  float:left;
+  width: 115px;
+  height: 29px;
+}
+.container .header .nav .nav-right .nav-right-item.line{
+  width: 1px;
+  color: #3dc0e7;
+  height:40px;
+  margin:0 20px 0 -10px;
+}
+.container .header .nav a{
+  font-size: 16px;
+  color: #3dc0e7;
+  text-decoration: none;
+  font-weight: bold;
+}
+.container .header .nav .nav-right .nav-right-item .iconfont{
+  font-size: 16px;
+  color: #3dc0e7;
+  text-decoration: none;
+  font-weight: bold;
+  padding-right:7px;
+}
+.container .header .nav .nav-right .nav-right-item img{
+  width: 16px;
+  height: 16px;
+  padding-right:5px;
+}
+
+/* 主要内容区 */
+.container #main{
+  box-sizing: border-box;
+  width: 1890px;
+  height: 959px;
+  margin:2px 18px 12px 12px;
+  background: url(../image/kuang.png) no-repeat;
+}
